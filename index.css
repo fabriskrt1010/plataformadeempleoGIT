@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(101, 33, 165);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+  
+}
+
+
+
+
+header .container{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+.principal .contenido{
+    background-color:rgb(43, 42, 42);
+    padding: 100px;
+    display: grid;
+    grid-template-columns:repeat(8,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+
+
+.contenido p{
+display: grid;
+grid-column: 1/2;
+color: white;
+}
+.contenido h1{
+    color: white;
+}
+
+.contenido{
+display: grid;
+grid-column:8/8 ;
+}
+
+.contenido a{
+    display: grid;
+    grid-column: 5/8;
+    grid-row: 3/6;
+    height: 350px;
+    width: 350px;
+}
+.contenido img{
+height: 450px;
+width: 450px;
+}
+
+#sobrenosotros{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#sobrenosotros .conocenos{
+    padding: 150px 12px;
+}
+
+#sobrenosotros h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#sobrenosotros p{
+    text-align: center;
+    color: rgb(31, 30, 30);
+}
+
+#sobrenosotros .carta{
+    background-position: center;
+    background-size:cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+#sobrenosotros h3{
+    color: black;
+}
+
+.carta:first-child{
+    background-image: url("img.jpg/seguinos.jpg")}
+
+.carta:nth-child(2){
+    background-image: 
+    url("/img.jpg/trabajaconnosotros.jpg");
+}
+
+.carta:nth-child(3){
+    background-image: url("/img.jpg/mail.jpg");
+
+}
+
+
+
+
+
+
+
+
+
+footer .container{
+    display: flex;
+            justify-content: flex-end;
+            justify-content: center;
+        }

@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+  
+}
+
+
+
+
+header .container{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+
+.contacto label{
+font-size: medium;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 10px;
+
+border-radius: black;
+}
+
+.contacto{
+    display: flex;
+    justify-content: start;
+    flex-direction:row;
+padding: 10px 10px;
+color: rgb(12, 12, 12);
+font-family: Arial, Helvetica, sans-serif;
+font-size: solid 2.0px;
+font-style: italic;
+background-color: rgb(241, 240, 240);
+}
+.contacto h1{
+    font-size: 3.5em;
+    color: black;
+    margin: 10px;
+}
+.contacto h4{
+   font-size: 3.0em;
+   color: black;
+   margin: 10px;
+}
+
+
+footer .container{
+    display: flex;
+            justify-content: flex-end;
+            justify-content: center;
+        }

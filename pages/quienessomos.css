@@ -1,0 +1,103 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover{
+    background-color: rgb(101, 33, 165);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.6em;
+    
+}
+
+
+
+
+header .container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+
+.quienessomos .contenido{
+background-color: rgb(223, 220, 220);
+display: grid;
+grid-template-columns: repeat(7,1fr);
+grid-template-rows: repeat(5,1fr);
+}
+
+.contenido img{
+display: grid;
+grid-column:2/4  ;
+grid-row: 2/4;
+}
+
+.contenido h4{
+    grid-column: 5/7;
+grid-row: 3/5;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+footer .container{
+    display: flex;
+            justify-content: flex-end;
+            justify-content: center;
+        }
